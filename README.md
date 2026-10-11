@@ -159,6 +159,10 @@ and restart `docker compose up -d`.
 - `pins.env` — pinned upstream SHAs (the webui snapshot must stay in contract-sync with the server pin; bump both together via `make bump-pins`)
 - `LICENSE` — MIT
 
+## Contributing and security
+
+See the [contributing guide](https://github.com/gochathub/.github/blob/main/CONTRIBUTING.md) and [code of conduct](https://github.com/gochathub/.github/blob/main/CODE_OF_CONDUCT.md). Report vulnerabilities privately through the Security tab, not in issues: [security policy](https://github.com/gochathub/.github/blob/main/SECURITY.md).
+
 ## License
 
 [MIT](LICENSE) © Brian Tafoya
