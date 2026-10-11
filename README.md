@@ -159,6 +159,10 @@ and restart `docker compose up -d`.
 - `pins.env` — pinned upstream SHAs (the webui snapshot must stay in contract-sync with the server pin; bump both together via `make bump-pins`)
 - `LICENSE` — MIT
 
+## Support
+
+Community help is free through [GitHub issues](https://github.com/gochathub/gochathub-installer/issues). If you would rather not run the installer and maintain the stack yourself, paid installation, Rocket.Chat migration and maintenance are available: see [gochathub.com/support](https://gochathub.com/support/).
+
 ## Contributing and security
 
 See the [contributing guide](https://github.com/gochathub/.github/blob/main/CONTRIBUTING.md) and [code of conduct](https://github.com/gochathub/.github/blob/main/CODE_OF_CONDUCT.md). Report vulnerabilities privately through the Security tab, not in issues: [security policy](https://github.com/gochathub/.github/blob/main/SECURITY.md).
