@@ -157,3 +157,8 @@ and restart `docker compose up -d`.
 - `REQUIREMENTS.md` — requirements
 - `docs/DESIGN.md` — architecture, decisions, verification notes
 - `pins.env` — pinned upstream SHAs (the webui snapshot must stay in contract-sync with the server pin; bump both together via `make bump-pins`)
+- `LICENSE` — MIT
+
+## License
+
+[MIT](LICENSE) © Brian Tafoya
