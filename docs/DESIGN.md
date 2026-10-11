@@ -12,7 +12,7 @@ Implements REQUIREMENTS.md. Targets upstream SHAs pinned in `pins.env`; no upstr
 ## 2. Repo layout (this installer repo)
 
 ```
-gochatinstaller/
+gochathub-installer/
 ├── install.sh              # build + bootstrap engine (idempotent)
 ├── docker-compose.yml      # template; compose only orchestrates prebuilt images
 ├── Caddyfile               # baked into the caddy image at build time

@@ -1,4 +1,4 @@
-# gochatinstaller
+# gochathub-installer
 
 Self-hosted goChatHub installer: one command boots [gochathub-server](https://github.com/gochathub/gochathub-server) + [gochathub-webui](https://github.com/gochathub/gochathub-webui) as a Docker Compose stack (Caddy edge serving the web UI, API/WebSocket forwarding, Postgres, MinIO object storage). **TLS is not part of the stack**: it terminates at your own upstream proxy, and a real `--public-host` is assumed to be served over HTTPS (see [Behind a TLS proxy](#behind-a-tls-proxy)). Without a host it installs on `localhost` over plain HTTP; `--http` keeps the old plain-HTTP LAN mode.
 
@@ -7,8 +7,8 @@ Self-hosted goChatHub installer: one command boots [gochathub-server](https://gi
 Requires: `git`, `docker` (+ compose plugin), `make` ops optional; `ss` (ships with iproute2).
 
 ```sh
-git clone https://github.com/gochathub/gochatinstaller
-cd gochatinstaller
+git clone https://github.com/gochathub/gochathub-installer
+cd gochathub-installer
 ./install.sh                      # deploys ./gochathub-deploy, prompts for ports + admin
 ```
 
